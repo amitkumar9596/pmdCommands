@@ -12,7 +12,7 @@ sf scanner:run:dfa --format=csv --outfile=CodeAnalyzerDFAPerform.csv --target=".
 
 CodeAnalyzerGeneralPerform
 --------------------------->
-sfdx scanner run --format=csv --outfile=CodeAnalyzerGeneralPerform.csv --target="./" --category="Performance"
+sf scanner run --format=csv --outfile=CodeAnalyzerGeneralPerform.csv --target="./" --category="Performance"
 
 pathToFile
 --------------------------->
