@@ -17,3 +17,9 @@ sf scanner run --format=csv --outfile=CodeAnalyzerGeneralPerform.csv --target=".
 pathToFile
 --------------------------->
 sf scanner:run --target "**/default/**" --format "csv" --outfile "pathToFile.csv"
+
+
+
+
+
+sfdx scanner:run:dfa --target './force-app/main/default/classes/CheckAccessibilityClass.cls' --projectdir './force app/main/default' --format csv --category security
