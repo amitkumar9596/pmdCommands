@@ -19,7 +19,10 @@ pathToFile
 sf scanner:run --target "**/default/**" --format "csv" --outfile "pathToFile.csv"
 
 
-
-
-
+for a particular class
+---------------------------->
 sfdx scanner:run:dfa --target './force-app/main/default/classes/CheckAccessibilityClass.cls' --projectdir './force app/main/default' --format csv --category security
+
+code analyzer all in one
+------------------------------>
+sf code-analyzer run --rule-selector AppExchange --rule-selector Recommended:Security --output-file CodeAnalyzerReport.html
